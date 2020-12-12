@@ -7,6 +7,7 @@
 #import "FatherView.h"
 
 @interface FatherView()
+@property (nonatomic, assign) NSInteger layoutTimes;
 @end
 
 @implementation FatherView
@@ -29,7 +30,8 @@
 - (void)layoutSubviews {
 
     [super layoutSubviews];
-    NSLog(@"father view layoutSubviews");
+    self.layoutTimes ++;
+    NSLog(@"father view layoutSubviews times:%ld",self.layoutTimes);
     NSArray <UIView *>*views = @[self.sonView1,self.sonView2,self.sonView3];
     [views mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(44);
