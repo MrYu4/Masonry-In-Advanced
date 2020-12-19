@@ -4,7 +4,7 @@
 platform :ios, '10.0'
 inhibit_all_warnings!
 
-target 'CocoaPod' do
+target 'MasonryAdvanced' do
   ###use_modular_headers!
   use_frameworks!
   pod "Masonry"

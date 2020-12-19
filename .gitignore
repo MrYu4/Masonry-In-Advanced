@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/.name
+.idea/Masonry-In-Advanced.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/xcode.xml
+CocoaPod.xcodeproj/xcuserdata/
+CocoaPod.xcworkspace/
+Podfile.lock
+Pods/
