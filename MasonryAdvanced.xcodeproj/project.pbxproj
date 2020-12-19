@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5929946166C4B434EA89D199 /* Pods_CocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0DEE5942BFF93BD3E5D21B /* Pods_CocoaPod.framework */; };
+		C60B78E65C36797AD57C5403 /* Pods_MasonryAdvanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976A0AD114F3310639A7C004 /* Pods_MasonryAdvanced.framework */; };
 		E4E700E4C412461DCF034FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E706500CDD384A0D9B064C /* Assets.xcassets */; };
 		E4E707EAE76745ED5BF49E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E707DC6DA713E2358E53B8 /* main.m */; };
 		E4E708D4F80B3ED677509691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E706A3B1FE96DD7FA70725 /* AppDelegate.m */; };
@@ -20,10 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3F71EE2F46F8BCCE5FCC67D /* Pods-CocoaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPod.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPod/Pods-CocoaPod.debug.xcconfig"; sourceTree = "<group>"; };
-		D7413DA369210BECB1F5D4A2 /* Pods-CocoaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPod.release.xcconfig"; path = "Target Support Files/Pods-CocoaPod/Pods-CocoaPod.release.xcconfig"; sourceTree = "<group>"; };
+		37D152BE7C8B2A011E1FA519 /* Pods-MasonryAdvanced.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAdvanced.release.xcconfig"; path = "Target Support Files/Pods-MasonryAdvanced/Pods-MasonryAdvanced.release.xcconfig"; sourceTree = "<group>"; };
+		7AB34688FB442506CC49B81F /* Pods-MasonryAdvanced.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAdvanced.debug.xcconfig"; path = "Target Support Files/Pods-MasonryAdvanced/Pods-MasonryAdvanced.debug.xcconfig"; sourceTree = "<group>"; };
+		976A0AD114F3310639A7C004 /* Pods_MasonryAdvanced.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonryAdvanced.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E7009AE4BEB4C1DF1A736D /* FatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherView.h; sourceTree = "<group>"; };
-		E4E703176E03715A6A4A1715 /* CocoaPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E703176E03715A6A4A1715 /* MasonryAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E7046577F5C043DA3398CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E70490711B838112FC921D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		E4E704972D74486776B25339 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		E4E70AA021460E83BC104EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E70DD1843F09A6AB7AA7A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E4E70E11286FCF66F9B12ADB /* FatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherView.m; sourceTree = "<group>"; };
-		EE0DEE5942BFF93BD3E5D21B /* Pods_CocoaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5929946166C4B434EA89D199 /* Pods_CocoaPod.framework in Frameworks */,
+				C60B78E65C36797AD57C5403 /* Pods_MasonryAdvanced.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +56,8 @@
 		1AF163EF82264CBAFF586779 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3F71EE2F46F8BCCE5FCC67D /* Pods-CocoaPod.debug.xcconfig */,
-				D7413DA369210BECB1F5D4A2 /* Pods-CocoaPod.release.xcconfig */,
+				7AB34688FB442506CC49B81F /* Pods-MasonryAdvanced.debug.xcconfig */,
+				37D152BE7C8B2A011E1FA519 /* Pods-MasonryAdvanced.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 		947DB814AB2ADE20E2F16FA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE0DEE5942BFF93BD3E5D21B /* Pods_CocoaPod.framework */,
+				976A0AD114F3310639A7C004 /* Pods_MasonryAdvanced.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 		E4E7012031D3E1F5C940FFE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4E703176E03715A6A4A1715 /* CocoaPod.app */,
+				E4E703176E03715A6A4A1715 /* MasonryAdvanced.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,13 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				E4E7012031D3E1F5C940FFE8 /* Products */,
-				E4E70752FDB11B9096FC0757 /* CocoaPod */,
+				E4E70752FDB11B9096FC0757 /* MasonryAdvanced */,
 				1AF163EF82264CBAFF586779 /* Pods */,
 				947DB814AB2ADE20E2F16FA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E4E70752FDB11B9096FC0757 /* CocoaPod */ = {
+		E4E70752FDB11B9096FC0757 /* MasonryAdvanced */ = {
 			isa = PBXGroup;
 			children = (
 				E4E705ADEEFB9D19B29893FB /* Info.plist */,
@@ -107,15 +107,15 @@
 				E4E704972D74486776B25339 /* SubView.m */,
 				E4E70646E97B49B59125675B /* SubView.h */,
 			);
-			path = CocoaPod;
+			path = MasonryAdvanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4E703E5E8E927ED3FBE7782 /* CocoaPod */ = {
+		E4E703E5E8E927ED3FBE7782 /* MasonryAdvanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4E70FD8A06DA80794DB0B0F /* Build configuration list for PBXNativeTarget "CocoaPod" */;
+			buildConfigurationList = E4E70FD8A06DA80794DB0B0F /* Build configuration list for PBXNativeTarget "MasonryAdvanced" */;
 			buildPhases = (
 				DC0268C61AF97342798CE445 /* [CP] Check Pods Manifest.lock */,
 				E4E70C1719310D75CE8372E6 /* Sources */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = CocoaPod;
+			name = MasonryAdvanced;
 			productName = CocoaPod;
-			productReference = E4E703176E03715A6A4A1715 /* CocoaPod.app */;
+			productReference = E4E703176E03715A6A4A1715 /* MasonryAdvanced.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4E707E004CE371F12FC9B29 /* Build configuration list for PBXProject "CocoaPod" */;
+			buildConfigurationList = E4E707E004CE371F12FC9B29 /* Build configuration list for PBXProject "MasonryAdvanced" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4E703E5E8E927ED3FBE7782 /* CocoaPod */,
+				E4E703E5E8E927ED3FBE7782 /* MasonryAdvanced */,
 			);
 		};
 /* End PBXProject section */
@@ -185,7 +185,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CocoaPod/Pods-CocoaPod-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MasonryAdvanced/Pods-MasonryAdvanced-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -194,7 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CocoaPod/Pods-CocoaPod-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MasonryAdvanced/Pods-MasonryAdvanced-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC0268C61AF97342798CE445 /* [CP] Check Pods Manifest.lock */ = {
@@ -212,7 +212,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CocoaPod-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MasonryAdvanced-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -303,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -313,13 +313,13 @@
 		};
 		E4E70743B0CC42599DD8958F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7413DA369210BECB1F5D4A2 /* Pods-CocoaPod.release.xcconfig */;
+			baseConfigurationReference = 37D152BE7C8B2A011E1FA519 /* Pods-MasonryAdvanced.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = C34LWN2Q9W;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = CocoaPod/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MasonryAdvanced/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YaHaHa-xx.CocoaPod";
@@ -330,13 +330,13 @@
 		};
 		E4E709BD68DF091A81E08D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F71EE2F46F8BCCE5FCC67D /* Pods-CocoaPod.debug.xcconfig */;
+			baseConfigurationReference = 7AB34688FB442506CC49B81F /* Pods-MasonryAdvanced.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = C34LWN2Q9W;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = CocoaPod/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MasonryAdvanced/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YaHaHa-xx.CocoaPod";
@@ -397,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4E707E004CE371F12FC9B29 /* Build configuration list for PBXProject "CocoaPod" */ = {
+		E4E707E004CE371F12FC9B29 /* Build configuration list for PBXProject "MasonryAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4E70B1CE2CD4D074146CB03 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4E70FD8A06DA80794DB0B0F /* Build configuration list for PBXNativeTarget "CocoaPod" */ = {
+		E4E70FD8A06DA80794DB0B0F /* Build configuration list for PBXNativeTarget "MasonryAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4E709BD68DF091A81E08D91 /* Debug */,
